@@ -1,38 +1,83 @@
+body {
+    color: #233142;
+    font-family: verdana, sans-serif;
+    background-color: #fcfafa;
+}
+
 .content {
     margin-top: 100px;
 }
 .soMe-link {
     position: fixed;
-    left: 0;
+    left: 2rem;
+    color: #233142;
+    font-size: 1.5rem
+}
+.soMe-link:hover {
+    color: #f95959;
+    transition: 400ms ease-in-out;
 }
 .github {
-bottom: 0;
+    bottom: 8rem;
 }
 .linkedin {
-bottom: 100;
+    bottom: 4rem;
 }
 #navbar {
-    background-color: rgb(255, 255, 255);
+    background-color: #fcfafa;
     position: fixed;
     top: 0;
     width: 100%;
-    /* display: block; */
     transition: top 0.5s;
+    padding: 15px
+}
+.nav-link {
+      color: #233142;
+      font-size: 20px;
+      padding-left: 3rem;
+      padding-right: 4rem;
+    }
+.nav-link:hover {
+      color: #233142;
+      text-decoration: 4px #f95959 underline;
+  }
+.home-link {
+      color: #f95959
   }
 
 .content {
     margin-left: 5rem;
     margin-right: 8rem;
 }
-.home {
+.home .page {
     margin-top: 12rem;
 }
 .page {
-    margin-top: 30rem;
-}
-.contact {
+    margin-top: 15rem;
     margin-bottom: 20rem;
 }
 .project-preview {
     width: 90%;
+    background-color: #fcfafa;
+    border: none;
+}
+.color-font {
+    color: #f95959
+}
+.mette {
+    font-size: 6rem;
+}
+.mette:hover {
+
+}
+.btn-primary {
+    background-color: #fcfafa;
+    border: 1px solid #f95959;
+    color: #f95959;
+}
+.btn-primary:hover {
+    background-color: #f95959;
+    border: 1px solid #f95959;
+    color: #fcfafa;
+
 }
