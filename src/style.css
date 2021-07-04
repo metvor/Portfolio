@@ -1,0 +1,21 @@
+.content {
+    margin-top: 100px;
+}
+.soMe-link {
+    position: fixed;
+    left: 0;
+}
+.github {
+bottom: 0;
+}
+.linkedin {
+bottom: 100;
+}
+#navbar {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* display: block; */
+    transition: top 0.5s;
+  }
