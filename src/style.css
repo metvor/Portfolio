@@ -19,3 +19,17 @@ bottom: 100;
     /* display: block; */
     transition: top 0.5s;
   }
+
+.content {
+    margin-left: 5rem;
+    margin-right: 8rem;
+}
+.home {
+    margin-top: 12rem;
+}
+.page {
+    margin-top: 30rem;
+}
+.contact {
+    margin-bottom: 20rem;
+}
